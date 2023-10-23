@@ -79,8 +79,10 @@ https://texwiki.texjp.org/?TeX%20Live%2FMac#i9febc9b が詳しい。
 これらには .ttf や .otf フォントを面倒な設定なしに読み込む機能が搭載されている。
 スライドとポスターについて LuaLaTeX で
 [MigMix 1P](http://mix-mplus-ipa.osdn.jp/migmix/) フォントを埋め込むサンプルを
-このリポジトリの [lualatex ブランチ](https://github.com/akabe/sumiilab-tex/tree/lualatex)
-にアップしてあるので、参考にすると良い。
+~~このリポジトリの [lualatex ブランチ](https://github.com/akabe/sumiilab-tex/tree/lualatex)
+にアップしてあるので、参考にすると良い。~~
 
-- [lualatex/slide/slide.pdf](https://github.com/akabe/sumiilab-tex/blob/lualatex/slide/slide.pdf)
-- [lualatex/poster/poster.pdf](https://github.com/akabe/sumiilab-tex/blob/lualatex/poster/poster.pdf)
+- ~~[lualatex/slide/slide.pdf](https://github.com/akabe/sumiilab-tex/blob/lualatex/slide/slide.pdf)~~
+- ~~[lualatex/poster/poster.pdf](https://github.com/akabe/sumiilab-tex/blob/lualatex/poster/poster.pdf)~~
+
+（master以外のブランチは[https://github.com/ry3s/sumiilab-tex](https://github.com/ry3s/sumiilab-tex)までで引き継ぎが終了している模様）

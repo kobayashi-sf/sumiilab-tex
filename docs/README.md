@@ -4,7 +4,7 @@
 
 まず、次の一連のコマンドを実行して、`slide.pdf` が作れるか確認しましょう。
 
-    $ git clone https://github.com/akabe/sumiilab-tex
+    $ git clone https://github.com/kobayashi-sf/sumiilab-tex.git
     $ cd sumiilab-tex/slide/
     $ make
 
@@ -69,7 +69,7 @@ slide.tex を改造すれば、スライドが作れます。
 
 次の一連のコマンドを実行します。
 
-    $ git clone https://github.com/akabe/sumiilab-tex
+    $ git clone https://github.com/kobayashi-sf/sumiilab-tex.git
     $ cd sumiilab-tex/poster/
     $ make
 

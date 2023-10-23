@@ -90,7 +90,7 @@ tar ball が入ったメディアが CD-ROM としてマウントされます。
 
 住井研究室で、よく使いそうなスタイルファイルについては自動でまとめてインストールするためのインストーラを用意しました。
 
-    $ git clone https://github.com/akabe/sumiilab-tex
+    $ git clone https://github.com/kobayashi-sf/sumiilab-tex.git
     $ cd sumiilab-tex
     # ./install.sh
 

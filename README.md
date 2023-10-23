@@ -17,7 +17,7 @@ EUC-JP 派の人は `nkf --euc` などで文字コードを変換してから使
 
 次の一連のコマンドを実行します。
 
-    $ git clone https://github.com/akabe/sumiilab-tex
+    $ git clone https://github.com/kobayashi-sf/sumiilab-tex.git
     $ cd sumiilab-tex/paper/
     $ make
 
