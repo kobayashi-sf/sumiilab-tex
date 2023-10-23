@@ -89,13 +89,11 @@ https://github.com/akabe/ppl2016 などを参考にして下さい。
 以下，Issuesの代わり（ただのissue用の欄なので，「適切な人」は独断と偏見で自由に追加・改変・削除して問題ない）
 
 
-## ToDoや個人的所感など:
+## ToDoや個人的所感など
+
 - ~~（GitHubの仕様はよく知らないが，恐らく）fork先のrepoのため，issueが建てられず不便．~~
-- `git clone`の[https://github.com/akabe/sumiilab-tex](https://github.com/akabe/sumiilab-tex)を最新forkのURLに置換すべき
-- ドキュメントは数が多いので専用ディレクトリ（ここ）に纏めるべきかも
 - 本repoでは，1. 卒論・修論の執筆に実質必須な最新のLaTeXテンプレートと2. 執筆時に有用なtipsの2つをメインで管理・継承すべき
     - スライドやポスター周りの話は必須ではないので，トップのREADME.mdのトップにデカデカと乗っけておくべき話ではないかも
-    -  イマドキ「EUC-JP 派の人」等の話は一般的に必要なのですか？
     -  なんなら，LaTeX環境構築の話が一番重要なのかもしれない
         -  ちなみに，私は2018年頃からmacOSに環境構築して利用し続けていますが，長期間の利用前提なら個人的にはオススメしていません（Tex Liveのバージョンアップ時にやたらトラブる印象）
             - イマドキはHomebrew Cask経由なら大丈夫っぽい？（参考：[https://blog.wtsnjp.com/2020/07/07/about-mactex/](https://blog.wtsnjp.com/2020/07/07/about-mactex/)の注釈2）
@@ -109,4 +107,8 @@ https://github.com/akabe/ppl2016 などを参考にして下さい。
 - 卒論・修論ではあまり関係ないだろうが，基礎知識として以下ぐらいは共有されるべきかも：
     - tlmgr
     - aspell
+    - bibclean
     
+## その他
+
+- 随所に現れる`https://github.com/<foo>/sumiilab-tex.git`は，引き継ぎ時に毎回最新forkのURLに置換されるべき
