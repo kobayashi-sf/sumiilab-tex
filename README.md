@@ -187,3 +187,6 @@ LaTeX の文書作成に有用な（と思われる）資料です。
     公式のドキュメントが見当たらないのですが、使い方は難しくないようです。
     - [推論規則をレイアウトする bcprules.sty](http://d.hatena.ne.jp/eagletmt/20120111/1326251578):
       bcprules.sty の具体例が載っています。
+
+---
+Issuesの代わり：[docs/README.md](docs/README.md)
