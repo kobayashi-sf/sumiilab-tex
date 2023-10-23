@@ -104,7 +104,7 @@ BibTeX を使うと、論文中で参照されている参考文献を、
 
 例：http://dblp.uni-trier.de/pers/hd/s/Sumii:Eijiro （sumii bibtex でヒットした住井先生の論文リスト）
 
-<center>![DBLP における BibTeX コードへのリンク](dblp_bibtex_link.png)</center>
+![DBLP における BibTeX コードへのリンク](dblp_bibtex_link.png)
 
 DBLP の BibTeX データは比較的信頼できますが、ときどき間違っているので、
 書き換えのポイントを説明しておきます。
@@ -146,7 +146,7 @@ DBLP はあくまでデータベースなので、論文自体と論文が掲載
 DBLP の BibTeX コードがあるページの右上に **with crossref** というプルダウンメニューがあるので、
 そこから **standard**（もしくは **condensed**）を選びます。
 
-<center>![DBLP における BibTeX コードの crossref の除去](dblp_bibtex_crossref.png)</center>
+![DBLP における BibTeX コードの crossref の除去](dblp_bibtex_crossref.png)
 
 すると、crossref なしの BibTeX コードが出力されます。
 condensed だと、standard よりも情報が少ないシンプルなコードが出力されます。
