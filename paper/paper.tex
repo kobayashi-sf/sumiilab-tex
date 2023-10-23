@@ -1,6 +1,8 @@
 \documentclass[uplatex]{sumiilab-paper}
 %% platex を使う場合：
 %% \documentclass{sumiilab-paper}
+
+\usepackage[dvipdfmx]{graphicx} % 各種形式の画像を簡単にincludeできます
 \usepackage{amsmath,amssymb} % 数式
 \usepackage{bm}
 \usepackage{mathtools} % 数学記号
@@ -87,6 +89,7 @@
   moredelim=[is][\bfseries]{@*}{*@},
   moredelim=[is][\itshape]{@/}{/@}
 }
+\lstMakeShortInline[columns=fullflexible]|% 本文中にコードを|foo|の形式で書くことができます
 
 %% ===============================================
 %% 論文中で使う記号とかのマクロ定義
@@ -277,7 +280,7 @@ amsthm.styをカスタマイズした定理環境を使う。
 
 \begin{lemma}
   \label{lem:interesting-lemma}
-  論文の中で最重要とは言えないような性質・命題は補題 (lamma) にする。
+  論文の中で最重要とは言えないような性質・命題は補題 (lemma) にする。
   補題や定理から直ちに導けるような軽い命題は系 (corollary) にする（細かい使い分けは人による）。
 \end{lemma}
 
@@ -317,6 +320,25 @@ let rec listup_nodes = function
   | Leaf x -> [x]
   | Node (r, l) -> (listup_nodes r) @ (listup_nodes l)
 \end{lstlisting}
+
+余談ではあるが、こういった参照が飛ばされるような（本文から完全に独立した）ソースコードは図として扱い、キャプションを下につける流儀が一般的かと思う。
+というか、そうでない論文を見たことがない。
+
+
+\section{図}
+
+図の貼り方ぐらいも例はあった方がよいかと（少なくとも本文で最初に言及された場所よりも後ろに配置するのが原則です）。
+さすがに PNG 等は |convert| せずに graphicx でそのまま扱う手法を推奨します：図\ref{f:aaa}は dblp\_bibtex\_crossref です。
+
+もし graphicx を持っていない場合は |tlmgr install graphicx| で入るのでは（知らんけど）。
+駄目そうならトップの usepackage と本セクションをコメントアウトした本ファイルを origin に |git push| して引き継ぐようにしてください。
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=.98\linewidth]{../docs/dblp_bibtex_crossref.png}
+\caption{試しに貼り付けられたdblp\_bibtex\_crossref}
+\label{f:aaa}
+\end{figure}
 
 \chapter{結論}
 
