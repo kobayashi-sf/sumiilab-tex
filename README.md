@@ -38,7 +38,7 @@ paper.tex はクラスファイルの使用例を兼ねたテンプレートで�
 
 - [スライドの書き方](docs/README.md):
   LaTeXでのスライドの書き方とプレゼンテーションのノウハウについて書いてあります。
-- [ポスターの書き方](docs/README.md)
+- [ポスターの書き方](docs/README.md):
   LaTeXでのポスターの書き方について書いてあります。
 - [参考文献の書き方](docs/CITATION.md):
  スライド・論文における参考文献の書き方について書いてあります。
@@ -49,7 +49,7 @@ paper.tex はクラスファイルの使用例を兼ねたテンプレートで�
   Git を使って LaTeX ファイルを管理する方法について書いてあります。
   指導教員と論文の最新版を共有し、同時期に編集したい、という時に便利です。
   投稿論文を書くときに必要になるかもしれません。
-- [フォントに関する Tips](docs/FONTS.md)
+- [フォントに関する Tips](docs/FONTS.md):
   ソースコード用のフォントの変更、日本語フォントの変更、日本語での太文字の使用、
   多書体化などのフォントに関する小技を紹介しています。
   LaTeX でフォント周りに手を加えるのは面倒なのであまりお勧めしませんが、
@@ -59,7 +59,7 @@ paper.tex はクラスファイルの使用例を兼ねたテンプレートで�
 
 LaTeX の文書作成に有用な（と思われる）資料です。
 
-- [Detexify](http://detexify.kirelabs.org/classify.html)
+- [Detexify](http://detexify.kirelabs.org/classify.html):
   手書き文字から LaTeX の記号を探してくれるツールです。
   記号の出し方がわからない時は、これを使って探しましょう。
 - [The Comprehensive LaTeX Symbol List (PDF)](http://www.tex.ac.uk/tex-archive/info/symbols/comprehensive/symbols-a4.pdf):
