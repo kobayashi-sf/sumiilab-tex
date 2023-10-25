@@ -66,27 +66,29 @@ LaTeX の文書作成に有用な（と思われる）資料です。
   LaTeX の記号が大量にリストアップされている PDF ファイルです。
 - [日本語 LaTeX を使うときに注意するべきこと](http://www.math.tohoku.ac.jp/~kuroki/LaTeX/howtolatex.html):
   数式の体裁を整える方法について細かく書いてあって良いです。
-- Beamer の使い方：一応、簡単な使い方は slide.tex に書いてありますが、
+- Beamer の使い方：
+  一応、簡単な使い方は slide.tex に書いてありますが、
   詳しく知りたい人は、以下の資料に目を通してみて下さい。
   - [辻研究室 Beamer](http://neurodynamics.jp/etc/beamer):
     Beamer の機能についての説明が分かりやすくまとまっています。
     入門的な内容で、slide.tex と合わせて読むと理解が深まると思います。
   - [Beamer User Guide (PDF)](http://texdoc.net/texmf-dist/doc/latex/beamer/doc/beameruserguide.pdf):
     公式のドキュメントで、非常に詳細な情報が載っています。
-- ソースコードの書き方：listings.sty を使いましょう（verbatim は融通が利かなくて大変不便です）。
+- ソースコードの書き方：
+  listings.sty を使いましょう（verbatim は融通が利かなくて大変不便です）。
   うまく設定すると専門書のような綺麗なソースコードが書けます。
   簡単な使い方は slide.tex に載っていますが、細かく体裁を整えたい場合は、以下の資料を読んでみて下さい。
-  listings.sty は slide.tex でも paper.tex でもデフォルトで読み込まれるので、
-  自分で `usepackage` する必要はありません。
   - [Listings - MyTeXpert](http://mytexpert.sourceforge.jp/index.php?Listings):
     `lstset` による体裁の設定の具体例が沢山載っています。
   - The Listings Package ( ftp://ftp.tex.ac.uk/tex-archive/macros/latex/contrib/listings/listings.pdf ):
     公式のドキュメントで、非常に詳細な情報が載っています。
-- アルゴリズム（擬似コード）の書き方：algorithmic.sty と algorithm.sty を使いましょう。
+- アルゴリズム（擬似コード）の書き方：
+  algorithmic.sty と algorithm.sty を使いましょう。
   ググると比較的分かりやすい Web ページが多数ヒットします。
   - [package for algorithms](http://www.cs.toronto.edu/~frank/Useful/algorithm2e.pdf):
     公式のドキュメント。
-- 証明図や導出木の書き方：分数を書くための frac マクロで何とかするという手もありますが、
+- 証明図や導出木の書き方：
+  分数を書くための frac マクロで何とかするという手もありますが、
   綺麗な証明図を書くためのスタイルファイルが幾つかあります。
   好みの問題もあるので、どれが一番良いという事はないですが、
   最初はドキュメントの多い bussproofs.sty が良いと思います（でも、bussproofs は独特のインタフェースをしています）。
