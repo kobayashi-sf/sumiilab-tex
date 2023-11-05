@@ -321,17 +321,19 @@ let rec listup_nodes = function
   | Node (r, l) -> (listup_nodes r) @ (listup_nodes l)
 \end{lstlisting}
 
-余談ではあるが、こういった参照が飛ばされるような（本文から完全に独立した）ソースコードは図として扱い、キャプションを下につける流儀が一般的かと思う。
-というか、そうでない論文を見たことがない。
+余談ではあるが、我々の分野ではこういった参照が飛ばされるような（本文から完全に独立した）ソースコードは図として扱い、
+キャプションを下につける流儀が一般的かと思う。
 
 
 \section{図}
 
-図の貼り方ぐらいも例はあった方がよいかと（少なくとも本文で最初に言及された場所よりも後ろに配置するのが原則です）。
-さすがに PNG 等は |convert| せずに graphicx でそのまま扱う手法を推奨します：図\ref{f:aaa}は dblp\_bibtex\_crossref です。
+図の貼り方ぐらいも例はあった方がよいかと。
+さすがに PNG 等は |convert| せずに graphicx でそのまま扱う手法を推奨します：
+図\ref{f:aaa}は dblp\_bibtex\_crossref です（少なくとも本文で最初に言及された場所よりも後ろに配置するのが原則です）。
 
 もし graphicx を持っていない場合は |tlmgr install graphicx| で入るのでは（知らんけど）。
-駄目そうならトップの usepackage と本セクションをコメントアウトした本ファイルを origin に |git push| して引き継ぐようにしてください。
+駄目そうならトップの usepackage と本セクションをコメントアウトした本ファイル
+を origin に |git push| して引き継ぐようにしてください。
 
 \begin{figure}[t]
   \centering
