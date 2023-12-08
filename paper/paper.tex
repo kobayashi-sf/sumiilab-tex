@@ -322,17 +322,22 @@ let rec listup_nodes = function
 \end{lstlisting}
 
 余談ではあるが、我々の分野ではこういった参照が飛ばされるような（本文から完全に独立した）ソースコードは図として扱い、
-キャプションを下につける流儀が一般的かと思う。
+キャプションを下につける流儀が一般的だと思う。
 \footnote{ただし、擬似コードによるアルゴリズムの記述にはこのようなスタイルを用いる。}
 
 
 \section{図}
 
-図の貼り方については、 docs/EPSIMAGES.md が推奨している |convert| ではなく、 graphicx から扱う手法が現代的かと思われる。
+図の貼り方については、 docs/EPSIMAGES.md が推奨している |convert| ではなく、 graphicx から扱う手法が現代的だと思う。
 \footnote{
 もし graphicx が標準で入っていない場合は、 |tlmgr install graphicx| などでインストールすると良い。
 }
-図\ref{f:aaa}は dblp\_bibtex\_crossref である（少なくとも本文で最初に言及された場所よりも後ろに配置するのが原則）。
+図\ref{f:aaa}は dblp\_bibtex\_crossref である。
+% \footnote{
+% ちなみに、初めて言及されたページのトップ（\url{https://chi2014.acm.org/templates/SIGCHIpaperformat.pdf}）か、
+% その次のページのトップ（\url{https://www.acm.org/binaries/content/assets/publications/taps/acm_layout_submission_template.pdf}
+% に貼り付けるのが慣例だと思う。
+% }
 
 \begin{figure}[t]
   \centering
