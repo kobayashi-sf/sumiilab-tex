@@ -1,4 +1,7 @@
-# Yet Another Tex Template for Thesis
+# Yet Another TeX Template for Thesis
 
-Latexmkによる自動コンパイル、ソースコード中キーワードの太字化が主な売りです。
+Latexmkによる自動コンパイル、ソースコード中キーワードの太字化への対応が主な売りです。
+
 Latexmkのviewerは`.latexmkrc`からお好きに変更してください。
+
+現状あくまで修正案のため，その内容の正当性を保証するものではない。
