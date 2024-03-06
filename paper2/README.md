@@ -1,4 +1,4 @@
-# Yet Another TeX Template for Thesis
+# Yet Another TeX Template for Theses
 
 Latexmkによる自動コンパイル、ソースコード中キーワードの太字化への対応が主な売りです。
 
